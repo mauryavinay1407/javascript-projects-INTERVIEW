@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.random-color-box{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+.hex-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.hex-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hex-btn{
+    background-color: rgb(29, 245, 173);
+}
+
+.rgb-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.rgb-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.controller{
+    display: flex;
+    flex-direction: column;
+}
+.rgb-btn,.rgb-copy{
+    background-color: palevioletred;
+}
+button{
+    width: 8rem;
+    height: 2.3rem;
+    margin: 10px;
+    background-color: rgb(61, 56, 128);
+    font-weight: bold;
+    cursor: pointer;
+
+   &&:hover{
+    opacity: 0.9;
+   }  
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex Color Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <div class="random-color-box">
+           <div class="hex-container">
+               <div class="hex-div">
+                   <h2 class="hex-code">#dkdkd</h2>
+                   <button class="hex-btn">
+                       Create Hex Color
+                   </button>
+                   <button class="hex-copy">
+                       Copy To Clipboard
+                   </button>
+               </div>
+           </div>
+           <div class="rgb-container">
+               <div class="rgb-div">
+                   <h2 class="rgb-code"></h2>
+                   <div class="controller">
+                    <label for="red">Red</label>
+                    <input type="range" min="0" max="255" value="0" id="red">
+                    <label for="green">Green</label>
+                    <input type="range" min="0" max="255" value="0" id="green">
+                    <label for="blue">Blue</label>
+                    <input type="range" min="0" max="255" value="0" id="blue">
+                   </div>
+                   <button class="rgb-btn">
+                    Create Hex Color
+                </button>
+                <button class="rgb-copy">
+                    Copy To Clipboard
+                </button>
+               </div>
+           </div>
+       </div>
+    <script src="main.js"></script>
+</body>
+</html>
